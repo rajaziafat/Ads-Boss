@@ -53,7 +53,7 @@ const MainLayout = () => {
       </div>
       <Outlet />
 
-      <Section className="py-20">
+      <Section className="py-10">
         <div className="flex justify-between flex-wrap items-center gap-16">
           <Link to="/">
             <img className="w-[136px]" src="/assets/logo.svg" alt="logo" />
