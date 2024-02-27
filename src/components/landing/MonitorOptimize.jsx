@@ -9,8 +9,8 @@ const MonitorOptimize = () => {
         alt="arrow"
         className="absolute -top-[30px] w-[230px] sm:w-[250px] [transform:rotateY(180deg)] xl:rotate-0 left-[20vw] 2xl:left-[27vw]"
       />
-      <div className="relative flex justify-between gap-12 2xl:gap-[100px] text-[#D9D9D9] z-10">
-        <div className="absolute opacity-50 xl:opacity-100 max-w-[300px] 2xl:max-w-full bottom-0 right-0 xl:relative flex-grow">
+      <div className="relative flex flex-col-reverse lg:flex-row-reverse xl:flex-row justify-between gap-6 2xl:gap-[100px] text-[#D9D9D9] z-10">
+        <div className="mx-auto lg:mx-0 max-w-[300px] 2xl:max-w-full xl:relative flex-grow">
           &nbsp;
           <img
             className="xl:absolute left-0 2xl:-left-[150px] xl:top-1/2 2xl:top-[-30px] xl:-translate-y-1/2 2xl:translate-y-0 w-full xl:w-[120%] 2xl:w-[150%] max-w-[724px]"
@@ -18,7 +18,7 @@ const MonitorOptimize = () => {
             alt="monitor"
           />
         </div>
-        <div className="xl:max-w-[720px] flex flex-col sm:flex-row gap-[34px] py-[66px] xl:pt-[66px] xl:pb-[188px]">
+        <div className="xl:max-w-[720px] flex flex-col sm:flex-row gap-[34px] pt-[66px] lg:pb-[66px] xl:pt-[66px] xl:pb-[188px]">
           <div className="flex-shrink-0 w-10 sm:w-[60px] h-10 sm:h-[60px] rounded-full bg-[#151515] flex justify-center items-center text-[#d9d9d9] font-bold text-2xl sm:text-[42px]">
             4
           </div>

@@ -9,7 +9,7 @@ const Hero = () => {
         alt="glitter"
         className="absolute left-0 top-0 w-full h-full object-cover opacity-10"
       />
-      <div className="relative z-10">
+      <div className=" relative z-10">
         <div className="flex flex-col lg:flex-row gap-10 justify-between items-center">
           <div className="w-[690x] flex-shrink-0">
             <h1 className="font-anton relative z-10 lg:z-auto overflow-hidden">
@@ -38,7 +38,7 @@ const Hero = () => {
               Find out more
             </Button>
           </div>
-          <div className="absolute right-0 top-0 max-w-[300px] lg:max-w-[unset] opacity-50 lg:opacity-100 lg:static">
+          <div className="max-w-[300px] lg:max-w-[unset]">
             <img
               className="max-w-[450px] xl:max-w-[560px] w-full"
               src="/assets/hero-man.png"

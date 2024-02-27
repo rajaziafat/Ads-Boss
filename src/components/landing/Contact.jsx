@@ -9,8 +9,8 @@ const Contact = () => {
         alt="glitter"
         className="absolute left-0 top-0 w-full h-full object-cover opacity-10"
       />
-      <div className="relative xl:flex justify-between gap-12 2xl:gap-[100px] text-[#343434] z-10">
-        <div className="w-full xl:max-w-[720px] flex xl:justify-start justify-center gap-[34px] py-[66px] xl:pt-[104px] xl:pb-[118px]">
+      <div className="relative xl:flex justify-between gap-6 2xl:gap-[100px] text-[#343434] z-10">
+        <div className="w-full xl:max-w-[720px] flex xl:justify-start justify-center gap-[34px] pt-[66px] xl:pt-[104px] xl:pb-[118px]">
           <div className="lg:mt-10">
             <h2 className="text-[48px] font-abc mb-2 sm:mb-4">Talk to us</h2>
             <p className="text-lg sm:text-xl lg:text-[25px]">
@@ -44,7 +44,7 @@ const Contact = () => {
             </form>
           </div>
         </div>{" "}
-        <div className="absolute right-0 bottom-0 max-w-[500px] xl:max-w-full opacity-50 xl:opacity-100 xl:relative flex-grow">
+        <div className="mx-auto xl:mx-0 max-w-[500px] xl:max-w-full xl:relative flex-grow">
           &nbsp;
           <img
             className="xl:absolute left-0 bottom-0 w-full 2xl:w-[45vw] xl:max-w-[858px]"
