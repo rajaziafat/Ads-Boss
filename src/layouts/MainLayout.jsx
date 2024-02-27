@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import Button from "components/common/Button";
+import Section from "components/common/Section";
 import { useState } from "react";
 import { Link, Outlet } from "react-router-dom";
 
@@ -51,6 +52,26 @@ const MainLayout = () => {
         </div>
       </div>
       <Outlet />
+
+      <Section className="py-20">
+        <div className="flex justify-between flex-wrap items-center gap-16">
+          <Link to="/">
+            <img className="w-[136px]" src="/assets/logo.svg" alt="logo" />
+          </Link>
+
+          <div className="flex justify-between items-center gap-[35px] flex-wrap">
+            <Link className="text-[#D9D9D9] sm:min-w-20 text-xl" to="/">
+              About
+            </Link>
+            <Link className="text-[#D9D9D9] sm:min-w-20 text-xl" to="/">
+              Services
+            </Link>
+            <Link className="text-[#D9D9D9] sm:min-w-20 text-xl" to="/">
+              Contact
+            </Link>
+          </div>
+        </div>
+      </Section>
     </div>
   );
 };

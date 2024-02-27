@@ -7,7 +7,7 @@ const MonitorOptimize = () => {
       <img
         src="/assets/arrow-right-black.svg"
         alt="arrow"
-        className="absolute w-[230px] sm:w-[250px] [transform:rotateY(180deg)] xl:rotate-0 left-[20vw] 2xl:left-[27vw] top-0"
+        className="absolute -top-[30px] w-[230px] sm:w-[250px] [transform:rotateY(180deg)] xl:rotate-0 left-[20vw] 2xl:left-[27vw]"
       />
       <div className="relative flex justify-between gap-12 2xl:gap-[100px] text-[#D9D9D9] z-10">
         <div className="absolute opacity-50 xl:opacity-100 max-w-[300px] 2xl:max-w-full bottom-0 right-0 xl:relative flex-grow">

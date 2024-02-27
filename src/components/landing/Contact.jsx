@@ -44,7 +44,7 @@ const Contact = () => {
             </form>
           </div>
         </div>{" "}
-        <div className="absolute right-0 bottom-0 max-w-[500px] xl:max-w-full opacity-50 xl:relative flex-grow">
+        <div className="absolute right-0 bottom-0 max-w-[500px] xl:max-w-full opacity-50 xl:opacity-100 xl:relative flex-grow">
           &nbsp;
           <img
             className="xl:absolute left-0 bottom-0 w-full 2xl:w-[45vw] xl:max-w-[858px]"
